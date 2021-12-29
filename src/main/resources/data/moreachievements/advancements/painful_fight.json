@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stick"
+    },
+    "title": "Painful Fight",
+    "description": "Kill an elder guardian with a stick",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "moreachievements:moreachievements",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:stick"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:elder_guardian"
+        }
+      }
+    }
+  }
+}
