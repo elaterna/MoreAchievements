@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanting_table"
+    },
+    "title": "Professional Enchanter",
+    "description": "Enchant 100 items",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "moreachievements:statistics",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player":  {
+          "player": {
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:enchant_item",
+                "value": {
+                  "min": 100
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

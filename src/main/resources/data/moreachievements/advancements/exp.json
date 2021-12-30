@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:experience_bottle"
+    },
+    "title": "Path To Wisdom",
+    "description": "Reach 100 experience levels",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "moreachievements:progress",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "level": {
+              "min": 100
+            }
+          }
+        }
+      }
+    }
+  }
+}

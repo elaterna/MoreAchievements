@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:firework_rocket"
+    },
+    "title": "Flying Like A Bird",
+    "description": "Use a firework rocket with an elytra",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "moreachievements:progress",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "location": {
+            "block": {
+              "blocks": [
+                "minecraft:air"
+              ]
+            }
+          },
+          "equipment": {
+            "chest": {
+              "items": [
+                "minecraft:elytra"
+              ]
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:firework_rocket"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

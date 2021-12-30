@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dragon_head"
+    },
+    "title": "Superman!",
+    "description": "Kill the ender dragon with your fist",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "moreachievements:progress",
+  "criteria": {
+    "struck_villager": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "count": 0
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:ender_dragon"
+        }
+      }
+    }
+  }
+}

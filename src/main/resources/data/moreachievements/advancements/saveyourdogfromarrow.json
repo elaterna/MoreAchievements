@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bow"
+    },
+    "title": "Saving Doggo",
+    "description": "Kill a skeleton, which is aiming at a dog",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "moreachievements:moreachievements",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+          "targeted_entity": {
+            "type": "minecraft:wolf"
+          }
+        }
+      }
+    }
+  }
+}

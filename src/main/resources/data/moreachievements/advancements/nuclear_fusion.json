@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:exposed_copper"
+    },
+    "title": "Nuclear Fusion",
+    "description": "Strike a creeper, villager, pig and mooshroom with lightning at once",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "moreachievements:lightning",
+  "criteria": {
+    "struck_villager": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "type": "minecraft:villager"
+          },
+          {
+            "type": "minecraft:pig"
+          },
+          {
+            "type": "minecraft:creeper"
+          },
+          {
+            "type": "minecraft:mooshroom"
+          }
+        ]
+      }
+    }
+  }
+}
