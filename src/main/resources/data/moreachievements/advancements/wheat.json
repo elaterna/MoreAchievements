@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wheat"
+    },
+    "title": {
+      "translate": "advancements.wheat-title"
+    },
+    "description": {
+      "translate": "advancements.wheat-description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "moreachievements:statistics",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:wheat_seeds",
+                "value": {
+                  "min": 2000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

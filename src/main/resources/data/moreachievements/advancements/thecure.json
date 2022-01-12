@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:honey_bottle"
+    },
+    "title": {
+      "translate": "advancements.the_cure-title"
+    },
+    "description": {
+      "translate": "advancements.the_cure-description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "moreachievements:progress",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "player": {
+          "effects": {
+            "minecraft:poison": {}
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:honey_bottle"
+          ]
+        }
+      }
+    }
+  }
+}

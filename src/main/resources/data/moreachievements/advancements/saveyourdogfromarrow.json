@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bow"
+    },
+    "title": {
+      "translate": "advancements.saveyourdogfromarrow-title"
+    },
+    "description": {
+      "translate": "advancements.saveyourdogfromarrow-description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "moreachievements:moreachievements",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+          "targeted_entity": {
+            "type": "minecraft:wolf"
+          }
+        }
+      }
+    }
+  }
+}

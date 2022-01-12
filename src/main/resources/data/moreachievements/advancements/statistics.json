@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:paper"
+    },
+    "title": {
+      "translate": "advancements.statistics-title"
+    },
+    "description": {
+      "translate": "advancements.statistics-description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "background": "moreachievements:textures/block/crimson_planks.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "slots": {
+          "empty": {
+            "min": 0,
+            "max": 50
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bamboo"
+    },
+    "title": {
+      "translate": "advancements.bamboo-title"
+    },
+    "description": {
+      "translate": "advancements.bamboo-description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "moreachievements:statistics",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "stats": [
+              {
+                "type": "minecraft:used",
+                "stat": "minecraft:bamboo",
+                "value": {
+                  "min": 500
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

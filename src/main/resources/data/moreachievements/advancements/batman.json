@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:black_wool"
+    },
+    "title": {
+      "translate": "advancements.batman-title"
+    },
+    "description": {
+      "translate": "advancements.batman-description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "moreachievements:statistics",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "player": {
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:bat",
+                "value": 49
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
