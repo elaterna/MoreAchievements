@@ -1,0 +1,130 @@
+{
+  "advancements.adventure-title": "更多成就/冒險",
+  "advancements.adventure-description": "準備開始冒險",
+
+  "advancements.more_achievements-title": "更多成就/特殊",
+  "advancements.more_achievements-description": "準備開始冒險",
+
+  "advancements.progress-title": "更多成就/進展",
+  "advancements.progress-description": "準備開始冒險",
+
+  "advancements.statistics-title": "更多成就/統計",
+  "advancements.statistics-description": "準備開始冒險",
+
+
+
+
+  "advancements.animal_expert-title": "動物專家",
+  "advancements.animal_expert-description": "在至少 25 格外用望遠鏡觀察烏龜、熊貓、羊駝、鸚鵡、狐狸和蜜蜂",
+
+  "advancements.bad_dreams-title": "噩夢",
+  "advancements.bad_dreams-description": "在叢林神廟睡覺",
+
+  "advancements.bamboo-title": "竹林隱士",
+  "advancements.bamboo-description": "累計種植 500 顆竹子",
+
+  "advancements.batman-title": "蝙蝠俠！",
+  "advancements.batman-description": "累計殺死 50 只蝙蝠",
+
+  "advancements.burn_in_hell-title": "去地獄燃燒吧",
+  "advancements.burn_in_hell-description": "用 tnt 殺死一個掠奪者",
+
+  "advancements.cauldron-title": "熱水澡",
+  "advancements.cauldron-description": "在下界時進入一個裝有水的大鍋",
+
+  "advancements.exp-title": "智慧之路",
+  "advancements.exp-description": "達到 100 級經驗",
+
+  "advancements.far_lands-title": "北極光",
+  "advancements.far_lands-description": "向北旅行超過 50 個區塊",
+
+  "advancements.firework_rocket-title": "像鳥一樣飛翔",
+  "advancements.firework_rocket-description": "使用帶有鞘翅的煙花火箭",
+
+  "advancements.goat-title": "山羊附身",
+  "advancements.goat-description": "累計跳躍 10000 次",
+
+  "advancements.hades-title": "冥界死神",
+  "advancements.hades-description": "在下界召喚一個凋靈並殺死它",
+
+  "advancements.high_totem-title": "過上美好的生活",
+  "advancements.high_totem-description": "在高於 300 格的位置使用不死圖騰",
+
+  "advancements.i_am_a_pillager-title": "我才是掠奪者",
+  "advancements.i_am_a_pillager-description": "用弩射殺每個職業的村民",
+
+  "advancements.invisibility-title": "你看不見我",
+  "advancements.invisibility-description": "獲得隱形效果",
+
+  "advancements.jungle_temple-title": "這是誰建造的",
+  "advancements.jungle_temple-description": "找到叢林神廟",
+
+  "advancements.lightning-title": "十萬伏特",
+  "advancements.lightning-description": "用閃電擊中爬行者",
+
+  "advancements.mansion-title": "這麼多掠奪者",
+  "advancements.mansion-description": "尋找林地府邸",
+
+  "advancements.mending-title": "不朽之路",
+  "advancements.mending-description": "附魔經驗修補",
+
+  "advancements.milehighclub-title": "高空俱樂部",
+  "advancements.milehighclub-description": "在至少 318 格高度睡覺",
+
+  "advancements.netherite_block-title": "值得嗎？",
+  "advancements.netherite_block-description": "放置一個下界合金塊",
+
+  "advancements.netherite_pickaxecc-title": "結束通話",
+  "advancements.netherite_pickaxecc-description": "有一個耐久度為 1 的下界合金鎬",
+
+  "advancements.nuclear_fusion-title": "核試驗",
+  "advancements.nuclear_fusion-description": "用閃電擊中苦力怕、村民、豬和哞菇各一次",
+
+  "advancements.painful_fight-title": "痛苦的戰鬥",
+  "advancements.painful_fight-description": "用棍子殺死一個遠古守衞者",
+
+  "advancements.poseidon-title": "海神降世",
+  "advancements.poseidon-description": "用三叉戟在至少 45 格外殺死一個溺屍",
+
+  "advancements.professional_enchanter-title": "職業附魔師",
+  "advancements.professional_enchanter-description": "附魔 100 件物品",
+
+  "advancements.redstone-title": "它是幹什麼用的",
+  "advancements.redstone-description": "獲得紅石",
+
+  "advancements.redstone_wire-title": "一丁點電力",
+  "advancements.redstone_wire-description": "放下紅石線",
+
+  "advancements.saveyourdogfromarrow-title": "拯救狗狗",
+  "advancements.saveyourdogfromarrow-description": "殺死一個瞄準狗的骷髏",
+
+  "advancements.sharp_teeth-title": "鋒利的牙齒",
+  "advancements.sharp_teeth-description": "讓狐狸拿起你的劍",
+
+  "advancements.snowball-title": "這兒也下雪？",
+  "advancements.snowball-description": "向惡魂扔雪球",
+
+  "advancements.spooky_flower-title": "幽靈之花",
+  "advancements.spooky_flower-description": "獲得凋零玫瑰",
+
+  "advancements.superman-title": "一拳超人！",
+  "advancements.superman-description": "用拳頭殺死末影龍",
+
+  "advancements.tank_time-title": "水箱時間！",
+  "advancements.tank_time-description": "抓住桶裏的每一條魚",
+
+  "advancements.the_cure-title": "治癒方法！",
+  "advancements.the_cure-description": "喝一瓶蜂蜜來解除身上的效果",
+
+   "advancements.tnt-title": "炸彈科技",
+   "advancements.tnt-description": "用火藥和沙子製作 TNT",
+
+   "advancements.weird_creature-title": "哦這奇怪的生物",
+   "advancements.weird_creature-description": "飼養一匹馬和一頭驢",
+
+   "advancements.whats_next-title": "接下來是什麼？",
+   "advancements.whats_next-description": "發現每一個結構",
+
+   "advancements.wheat-title": "甜蜜美滿的家",
+   "advancements.wheat-description": "累計種植 2000 棵小麥"
+}
