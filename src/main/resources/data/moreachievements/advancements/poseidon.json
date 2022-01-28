@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:trident"
+    },
+    "title": {
+      "translate": "advancements.poseidon-title"
+    },
+    "description": {
+      "translate": "advancements.poseidon-description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "moreachievements:moreachievements",
+  "criteria": {
+    "killed_drowned": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          "is_projectile": true,
+          "direct_entity": {
+            "type": "minecraft:trident"
+          }
+        },
+        "entity": {
+          "type": "minecraft:drowned",
+          "distance": {
+            "horizontal": {
+              "min": 45
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_boots"
+    },
+    "title": {
+      "translate": "advancements.goat-title"
+    },
+    "description": {
+      "translate": "advancements.goat-description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "moreachievements:statistics",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player":  {
+          "player": {
+            "stats": [
+              {
+                "type": "minecraft:custom",
+                "stat": "minecraft:jump",
+                "value": {
+                  "min": 10000
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

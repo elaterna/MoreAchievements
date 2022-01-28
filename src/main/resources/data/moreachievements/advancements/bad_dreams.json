@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:black_bed"
+    },
+    "title": {
+      "translate": "advancements.bad_dreams-title"
+    },
+    "description": {
+      "translate": "advancements.bad_dreams-description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "moreachievements:jungle_temple",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:slept_in_bed",
+      "conditions": {
+        "location": {
+          "feature": "jungle_pyramid"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "title": {
+      "translate": "advancements.painful_fight-title"
+    },
+    "description": {
+      "translate": "advancements.painful_fight-description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "moreachievements:moreachievements",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:stick"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:elder_guardian"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:elytra"
+    },
+    "title": {
+      "translate": "advancements.far_lands-title"
+    },
+    "description": {
+      "translate": "advancements.far_lands-description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "moreachievements:adventure",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "position": {
+            "z": {
+              "min": -1000000,
+              "max": -50000
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:salmon_bucket"
+    },
+    "title": {
+      "translate": "advancements.tank_time-title"
+    },
+    "description": {
+      "translate": "advancements.tank_time-description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "moreachievements:adventure",
+  "criteria": {
+    "turtle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pufferfish_bucket"
+            ]
+          }
+        ]
+      }
+    },
+    "panda": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:salmon_bucket"
+            ]
+          }
+        ]
+      }
+    },
+    "llama": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cod_bucket"
+            ]
+          }
+        ]
+      }
+    },
+    "parrot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:tropical_fish_bucket"
+            ]
+          }
+        ]
+      }
+    },
+    "fox": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:axolotl_bucket"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
